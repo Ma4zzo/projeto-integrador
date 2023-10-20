@@ -1,0 +1,148 @@
+body {
+    background-image: url(./img/header_pt.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: rgba(53, 0, 102, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#fundo{
+    z-index: -1;
+    background-repeat: no-repeat;
+}
+
+section {
+    background-color: rgba(78, 0, 246, 0.041);
+    width: 2000px;
+    height: 850px;
+}
+
+header {
+    width: 100%;
+    height: 150px;
+    background-color: rgba(255, 255, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.conatiner {
+    background-color: rgba(0, 0, 255, 0);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer {
+    background-color: rgba(0, 201, 0, 0);
+    height: 100%;
+    height: 250px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} 
+
+.logo {
+    width: 192px;
+    height: 90%;
+    background-color: rgba(255, 102, 0, 0);
+}
+
+nav {
+    background-color: rgba(255, 166, 0, 0);
+    width: 550px;
+    height: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+li {
+    text-transform: uppercase;
+    background-color: rgba(240, 248, 255, 0);
+    font-weight: 700;
+    width: 270px;
+    height: 60px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 11px;
+}
+
+.direita_conteudo, .esquerda_conteudo {
+    height: 90%;
+    width: 300px;
+    background-color: rgba(255, 68, 0, 0);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+h1{
+    background-color: rgba(218, 165, 32, 0);
+    color: aqua;
+    width: 90%;
+}
+
+.subtitle {
+    background-color: rgba(218, 165, 32, 0);
+    width: 90%;
+    color: aliceblue;
+}
+
+#player {
+    width: 70px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px black;
+    filter: grayscale(100%);
+    
+}
+
+#mouse {
+    width: 50px;
+    margin-bottom: 15px;
+    filter: invert(100%);
+}
+
+#logo{
+    width: 100%;
+} 
+
+.anonimo {
+    width: 80%;
+    height: 25px;
+    border-radius: 5rem;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    color: blue;
+    background-color: gold;
+}
+
+.role {
+    text-transform: uppercase;
+    color: aliceblue;
+}
+
+#globo{
+    height: 25px;
+    
+    filter: invert(100%);
+}
+
+#facebook{
+    height: 50px;
+    width: 30px;
+    display: flex;
+}
